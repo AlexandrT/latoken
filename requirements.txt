@@ -2,5 +2,6 @@ pytest
 pytest-logger
 pytest-selenium
 python-i18n[YAML]
+pytest-html
 
 pyvirtualdisplay

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-source deploy/variables.env && pytest tests --driver Chrome
+source deploy/variables.env && python runner.py

@@ -8,7 +8,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'lib'))
 from config import set_env
 
 
-LOG_NAME = 'test.log'
+LOG_NAME = 'reports/test.log'
 
 logging.basicConfig(filename=LOG_NAME,
                     format='%(asctime)s - %(levelname)s - %(message)s',

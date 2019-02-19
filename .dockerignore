@@ -1,12 +1,19 @@
 **/__pycache__
+.pytest_cache/
+*.py[cod]
 .cache/
 
 **/logs
 logs
 
-allure-report/
 assets/
+
+allure-report/
 report/
 
-report.html
+.DS_Store
+*.swp
+*.log
+
 report.json
+report.html
